@@ -1,6 +1,7 @@
 var myVar = "my variable";
+var sampleFunc;
 
-function GetMyVar()
+window.sampleFunc = function GetMyVar()
 {
     return myVar;
 }
